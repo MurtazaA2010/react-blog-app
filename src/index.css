@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.navbar header a {
+    color: rgb(238, 148, 12);
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.navbar nav {
+    display: flex;
+    
+}
+
+.navbar nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.bloglist h1 {
+    text-align: center;
+    user-select: none;
+}
+
+.bflex {
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.0;
+}
+
+.aut {
+    line-height: 0.3;
+}
+
+.main-b {
+    line-height: 0.5;
+}
+
+.main-b h4 {
+    padding-top: 20px;
+}
+.blog-preview {
+    background-color: rgba(red, green, blue, alpha);
+    border: 1px solid rgba(0,0,0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+.blog-preview .author {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blog-preview .categorie {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blog-details {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.blog-details #title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.blog-details #author {
+    font-size: 18px;
+    text-align: center;
+}
+
+.blog-details .center {
+    line-height: 0.5;
+}
+
+.blog-details #categorie {
+    text-align: center;
+    font-size: 16px;
+}
+
+.blog-details #body {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.blog-details .btn {
+    padding: 15px 30px ;
+    border: none;
+    border-radius: 12px;
+    background-color: #00f4a2;
+    color: whitesmoke;
+    margin-inline: 20px;
+    cursor: pointer;   
+    transition: all 500ms; 
+}
+
+.blog-details .btn:hover {
+    background-color: #08e59c;
+}
+
+.blog-details #loading {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.create h1 {
+    text-align: center;
+    user-select: none;
+}
+
+.inputs {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.inputs input {
+    width: 600px;
+    height: 30px ;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0, 0.2);
+    font-size: 18px;
+    position: relative;
+    outline: none;
+} 
+
+.inputs label {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.inputs select {
+    font-size: 20px;
+    border: 2px solid rgba(0,0,0, 0.2);
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputs textarea {
+    width: 600px;
+    height: 140px ;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0, 0.2);
+    border-top: 2px solid rgba(0,0,0, 0.2);
+    font-size: 18px;
+    position: relative;
+    outline: none;
+}
+
+.inputs button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #00ffaa;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 500ms;
+}
+
+.inputs button:hover {
+    background-color: #0fdc98;
+}

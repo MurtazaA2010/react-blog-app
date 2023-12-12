@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "author": "Murtaza Abdullah",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore illo aliquam minima dignissimos rerum suscipit quasi cum quae ut delectus natus repudiandae culpa maiores odio hic tempore, debitis dolores libero reiciendis eos consequatur cumque commodi repellat. Facilis animi vitae nostrum dignissimos nulla expedita placeat reprehenderit ex ratione. Voluptatem, atque reprehenderit perspiciatis obcaecati suscipit voluptatum repellat corrupti ex ea ipsa illum architecto possimus distinctio alias vel vitae, dolore quibusdam unde libero expedita! Ducimus iusto quam iure. Provident at quod adipisci ipsa nisi fuga debitis commodi illo aspernatur. Accusantium alias, non facere officiis saepe placeat velit? Molestias, totam provident. Explicabo obcaecati, minima deserunt reprehenderit soluta impedit nihil autem temporibus reiciendis libero, distinctio hic nam perferendis illum corrupti molestias sint optio tempore dolores labore rerum? Excepturi est, aut sint aliquam eum fugiat rem tenetur beatae enim natus in hic, sit doloremque. Est, quae itaque amet unde molestias obcaecati nisi. Eius incidunt ipsam tenetur possimus natus porro fuga voluptatibus iste. Cum, consectetur repellendus itaque voluptas facere saepe facilis labore repellat quasi ea doloremque adipisci assumenda quia delectus repudiandae reiciendis cupiditate incidunt obcaecati exercitationem quam enim ratione eaque beatae. Facere alias, adipisci beatae placeat sint quas? Qui explicabo consequatur exercitationem sunt earum recusandae numquam. Inventore.",
+      "id": 1,
+      "categorie": "Technology"
+    },
+    {
+      "title": "Test Blog",
+      "author": "Murtaza Abdullah",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore illo aliquam minima dignissimos rerum suscipit quasi cum quae ut delectus natus repudiandae culpa maiores odio hic tempore, debitis dolores libero reiciendis eos consequatur cumque commodi repellat. Facilis animi vitae nostrum dignissimos nulla expedita placeat reprehenderit ex ratione. Voluptatem, atque reprehenderit perspiciatis obcaecati suscipit voluptatum repellat corrupti ex ea ipsa illum architecto possimus distinctio alias vel vitae, dolore quibusdam unde libero expedita! Ducimus iusto quam iure. Provident at quod adipisci ipsa nisi fuga debitis commodi illo aspernatur. Accusantium alias, non facere officiis saepe placeat velit? Molestias, totam provident. Explicabo obcaecati, minima deserunt reprehenderit soluta impedit nihil autem temporibus reiciendis libero, distinctio hic nam perferendis illum corrupti molestias sint optio tempore dolores labore rerum? Excepturi est, aut sint aliquam eum fugiat rem tenetur beatae enim natus in hic, sit doloremque. Est, quae itaque amet unde molestias obcaecati nisi. Eius incidunt ipsam tenetur possimus natus porro fuga voluptatibus iste. Cum, consectetur repellendus itaque voluptas facere saepe facilis labore repellat quasi ea doloremque adipisci assumenda quia delectus repudiandae reiciendis cupiditate incidunt obcaecati exercitationem quam enim ratione eaque beatae. Facere alias, adipisci beatae placeat sint quas? Qui explicabo consequatur exercitationem sunt earum recusandae numquam. Inventore.",
+      "id": 2,
+      "categorie": "Technology"
+    },
+    {
+      "title": "Bangladesh vs India Math Report",
+      "author": "Somoy Tv",
+      "body": "In yesterday's math BD vs IND Bangladesh won with a big lead and this is the 2nd biggest miracle in this world cup",
+      "categorie": "Sports",
+      "id": 3
+    }
+  ]
+}
