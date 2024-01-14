@@ -2,7 +2,6 @@ import './App.css';
 import './index.css'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import NotFound from './NotFound'
-
 import Create from './Create';
 import Home from './home';
 import Navbar from './Navbar';
