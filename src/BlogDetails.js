@@ -13,23 +13,23 @@ const BlogDetails = () => {
             history.push('/');
         })
     };
+    
     const handleBack = () => {
         history.go(-1);
     };
+    
     return ( 
         <div className="blog-details">
-            {isPending && <div id='loading...'>Loading</div>}
-            <div className="center">
-            {data &&  <h3 id='title'>{data.title}</h3>}
-            {data &&  <p id='author'>By : {data.author}</p>}
-            {data && <p id='categorie'>{data.categorie}</p>}
-            </div>
-            {data &&  <p id='body'>{data.body}</p>}
-
-           <button onClick={handleDelete} className='btn'>Delete Blog</button>
-            <button onClick={handleBack} className='btn'>Go back</button>
+                {isPending && <div id='loading...'>Loading</div>}
+                <div className="center">
+                {data &&  <h3 id='title'>{data.title}</h3>}
+                {data &&  <p id='author'>By : {data.author}</p>}
+                {data && <p id='categorie'>{data.categorie}</p>}
+                </div>
+                {data &&  <p id='body'>{data.body}</p>}
+                <button onClick={handleDelete} className='btn'>Delete Blog</button>
+                <button onClick={handleBack} className='btn'>Go back</button>
         </div>
      );
 };
- 
 export default BlogDetails;
