@@ -6,6 +6,7 @@ import Create from './Create';
 import Home from './home';
 import Navbar from './Navbar';
 import BlogDetails from './BlogDetails';
+
 function App() {
   return (
     <Router>
